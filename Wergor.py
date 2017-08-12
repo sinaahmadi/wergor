@@ -255,7 +255,7 @@ class Wergor:
                 return self.digits_mapping.keys()[self.digits_mapping.values().index(char.lower())]
         return self.UNKNOWN
 #==============================================================================
-#   If you're importing this script, please remove the __main__
+#   
 #==============================================================================
 if __name__ == "__main__":
     modes = ["-arabic2latin", "-latin2arabic"] # syllable detection not available in the command-line.
@@ -277,6 +277,7 @@ if __name__ == "__main__":
         transliterated_text = list()
         wergor_transliterator = Wergor(mode)
         for line in input_text:
+            line = line.replace(u"و", u"û")
             transliterated_line = list()
             line = line.split()
             for token in line:
