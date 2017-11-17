@@ -1,4 +1,4 @@
-# Wergor 
+# Wergor transliterator
 # Transliteration system for Kurdish
 
 
