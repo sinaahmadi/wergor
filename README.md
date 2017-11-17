@@ -60,7 +60,7 @@ If you're using a character-level model, you may use `transliteration_data_set.p
 If you're using Wergor transliterator in your researches, please don't forget to cite our paper. 
 
 ~~~
- Sina Ahmadi. A Rule-based Kurdish Text Transliteration System. 
+ (In press) Sina Ahmadi. A Rule-based Kurdish Text Transliteration System. ACM Transactions on Asian Language Information Processing (TALIP), 2017.
 ~~~
 
 This helps us to also find your work easily.
