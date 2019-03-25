@@ -2,7 +2,7 @@
 # Transliteration system for Kurdish
 
 
-[Wergor](https://github.com/sinaahmadi/wergor) is a transliteration system for Sorani Kurdish Latin-based and Arabic-based orthographies. In this first version, we have used a rule-based method. 
+[Wergor](https://github.com/sinaahmadi/wergor) is a transliteration system for Sorani Kurdish Latin-based and Arabic-based orthographies. In this first version, we have used a rule-based method. It is the result of a research project published in the ACM Transactions on Asian and Low-Resource Language Information Processing (TALLIP) and can be downloaded here: [https://dl.acm.org/citation.cfm?id=3278623](https://dl.acm.org/citation.cfm?id=3278623)
 
 ### Usage
 The script can be used in command-line or directly by importing the `Wergor class` in your codes.
@@ -57,10 +57,19 @@ If you're using a character-level model, you may use `transliteration_data_set.p
 
 
 ### Reference
-If you're using Wergor transliterator in your researches, please don't forget to cite our paper. 
+If you're using Wergor transliterator in your researches, please don't forget to cite the following paper. 
 
 ~~~
- (In press) Sina Ahmadi. A Rule-based Kurdish Text Transliteration System. ACM Transactions on Asian Language Information Processing (TALIP), 2017.
+@article{ahmadi2019rule,
+  title={A Rule-Based Kurdish Text Transliteration System},
+  author={Ahmadi, Sina},
+  journal={ACM Transactions on Asian and Low-Resource Language Information Processing (TALLIP)},
+  volume={18},
+  number={2},
+  pages={18},
+  year={2019},
+  publisher={ACM}
+}
 ~~~
 
 This helps us to also find your work easily.
