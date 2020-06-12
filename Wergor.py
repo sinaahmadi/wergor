@@ -277,7 +277,7 @@ if __name__ == "__main__":
         transliterated_text = list()
         wergor_transliterator = Wergor(mode)
         for line in input_text:
-            line = line.replace(u"و", u"û")
+            line = line.replace(u" و ", u" û ")
             transliterated_line = list()
             line = line.split()
             for token in line:
