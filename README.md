@@ -1,6 +1,7 @@
 # Wergor transliterator
 # Transliteration system for Kurdish
 
+⭐ **Since 2020, this project is now part of the Kurdish Language Processing Toolkit (KLPT): [https://github.com/sinaahmadi/klpt].**
 
 [Wergor](https://github.com/sinaahmadi/wergor) is a transliteration system for Sorani Kurdish Latin-based and Arabic-based orthographies. In this first version, we have used a rule-based method. It is the result of a research project published in the ACM Transactions on Asian and Low-Resource Language Information Processing (TALLIP) and can be downloaded here: [https://dl.acm.org/citation.cfm?id=3278623](https://dl.acm.org/citation.cfm?id=3278623)
 
